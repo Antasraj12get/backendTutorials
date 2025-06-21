@@ -1,0 +1,12 @@
+var express = require('express')
+var app = express()
+var port = 5566;
+
+
+
+app.get('/', function (req, res) {
+})
+
+ app.listen(port,()=>{
+ console.log(`server is running on ${port}`)
+ })
